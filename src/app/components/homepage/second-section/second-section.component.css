@@ -1,0 +1,61 @@
+.homepage-h2{
+  color: #000;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section2-text{
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34px; /* 141.667% */
+}
+.section2-btn{
+  border-radius: 40px;
+  background: #000;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 188.889% */
+}
+.section2-input{
+  fill: #FFF !important;
+  stroke-width: 2px;
+  stroke: #000 !important;
+  color: #000 !important;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 141.667% */
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: black 2px solid;
+  width: 450px;
+  height: 74px;
+  max-width: 90%;
+  padding: 0 20px;
+}
+.section2-input:focus{
+  outline: none;
+}
+.section2-input::placeholder{
+  color: #000 !important;
+  font-family: Inter;
+}
+.qr-code-container{
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 10px;
+}

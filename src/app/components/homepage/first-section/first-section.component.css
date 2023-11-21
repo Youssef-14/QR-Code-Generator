@@ -1,0 +1,31 @@
+.section1-container{
+  padding: 150px 0px 100px 0px;
+}
+
+.homepage-h1{
+  color: #000;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section1-text{
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34px; /* 141.667% */
+}
+
+.section1-btn{
+  border-radius: 40px;
+  background: #000;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 188.889% */
+}
