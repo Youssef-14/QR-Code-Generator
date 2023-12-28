@@ -1,0 +1,41 @@
+<div >
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-lg-6 col-12 col-md-12  text-center text-lg-start">
+        <h1 class="homepage-h2">
+          Create Your QR Code
+          in Just a Few Clicks
+        </h1>
+        <p class="section2-text">
+          Paste a url or enter text to create a QR code
+        </p>
+        <div class="d-flex justify-content-center justify-content-lg-start pb-4">
+          <input type="text" name="inputValue"  class="section2-input" placeholder="Enter URL or Text" [(ngModel)]="inputValue"/>
+        </div>
+        <div class="d-flex justify-content-center justify-content-lg-start pb-4">
+          <button id="generate" class="btn btn-primary btn-lg section2-btn" (click)="generateQRCode()">
+            Generate
+          </button>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-12 col-md-12  text-center text-lg-start">
+        <div class="d-flex justify-content-center pb-3" >
+          <div class="qr-code-container">
+            <qrcode [qrdata]="text" id="qrcode" class="qr-code"  >
+            </qrcode>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="download btn btn-primary btn-lg section2-btn m-2">
+            Download as pdf
+          </button>
+          <button class="download btn btn-primary btn-lg section2-btn m-2">
+            Download as png
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
