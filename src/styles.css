@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+qrcode {
+  width: 95% !important;
+  height: 95% !important;
+}
+.qrcode  {
+  width: 100% !important;
+  height: 100% !important;
+}
+

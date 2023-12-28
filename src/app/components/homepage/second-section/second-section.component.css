@@ -47,10 +47,9 @@
 }
 .section2-input::placeholder{
   color: #000 !important;
-  font-family: Inter;
 }
 .qr-code-container{
-  width: 300px;
+  width: 350px;
   height: 350px;
   display: flex;
   justify-content: center;
@@ -59,3 +58,6 @@
   border: 2px solid black;
   border-radius: 10px;
 }
+
+
+
