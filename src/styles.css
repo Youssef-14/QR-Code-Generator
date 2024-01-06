@@ -12,17 +12,3 @@ qrcode {
   height: 100% !important;
 }
 
-
-.global-btn{
-  border-radius: 40px;
-  background: #000;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 34px; /* 188.889% */
-}
-
-
-
