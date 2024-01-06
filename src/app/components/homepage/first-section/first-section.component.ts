@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-first-section',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule],
   templateUrl: './first-section.component.html',
   styleUrl: './first-section.component.css'
 })

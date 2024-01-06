@@ -1,11 +1,6 @@
 .section1-container{
   padding: 150px 0px 100px 0px;
 }
-@media (max-width: 768px) {
-  .section1-container{
-    padding: 50px 0px 50px 0px;
-  }
-}
 
 .homepage-h1{
   color: #000;
@@ -15,13 +10,6 @@
   font-weight: 600;
   line-height: normal;
 }
-
-@media (max-width: 768px) {
-  .homepage-h1{
-    font-size: 60px !important;
-  }
-}
-
 .section1-text{
   color: #000;
   font-family: Inter;
@@ -32,7 +20,7 @@
 }
 
 .section1-btn{
-  border-radius: 25px;
+  border-radius: 40px;
   background: #000;
   color: #FFF;
   font-family: Inter;
@@ -40,5 +28,4 @@
   font-style: normal;
   font-weight: 500;
   line-height: 34px; /* 188.889% */
-  border: 0;
 }
