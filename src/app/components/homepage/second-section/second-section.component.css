@@ -15,7 +15,7 @@
   line-height: 34px; /* 141.667% */
 }
 .section2-btn{
-  border-radius: 40px;
+  border-radius: 25px;
   background: #000;
   color: #FFF;
   font-family: Inter;
@@ -23,6 +23,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 34px; /* 188.889% */
+  border: 0;
 }
 .section2-input{
   fill: #FFF !important;
